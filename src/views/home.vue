@@ -45,7 +45,7 @@ const handleDelete = () => {
 }
 const handleDownload = () => {
   const worksheet = {
-    "!ref": "A2:E2",
+    "!ref": "A1:E2",
     A1: { t: 'n', v: '题目' },
     A2: { t: 'n', v: '如需在工作票上增加安全措施，（ ）。' },
     B1: { t: 'n', v: '题目类型' },

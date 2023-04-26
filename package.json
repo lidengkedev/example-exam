@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "build": "vue-tsc --noEmit --skipLibCheck && vite build",
+    "build:origin": "vite build",
+    "lint": "eslint eslint \"src/**/*.{js,ts,tsx,vue}\"",
+    "preview": "vite preview",
+    "deploy": "npm run build:origin && deploy.sh"
   },
   "dependencies": {
     "vue": "^3.2.47",

@@ -9,7 +9,6 @@ import ComontentHome from './views/home.vue'
   <section>
     <aside></aside>
     <main>
-      <!-- <component-home></component-home> -->
       <ComontentHome></ComontentHome>
     </main>
   </section>
